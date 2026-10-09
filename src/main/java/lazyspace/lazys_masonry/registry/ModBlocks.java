@@ -102,4 +102,17 @@ public class ModBlocks {
                     .slab(ModBlocks.POLISHED_TUFF_TILE_SLAB)
                     .wall(ModBlocks.POLISHED_TUFF_TILE_WALL)
                     .getFamily();
+
+
+    public static final Block POLISHED_DEEPSLATE_TILE = register("polished_deepslate_tile", Block::new, BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_DEEPSLATE), true);
+    public static final Block POLISHED_DEEPSLATE_TILE_SLAB = register("polished_deepslate_tile_slab", SlabBlock::new, BlockBehaviour.Properties.of().sound(SoundType.STONE), true);
+    public static final Block POLISHED_DEEPSLATE_TILE_STAIRS = registerStair("polished_deepslate_tile_stairs", POLISHED_DEEPSLATE_TILE);
+    public static final Block POLISHED_DEEPSLATE_TILE_WALL = register("polished_deepslate_tile_wall", WallBlock::new, BlockBehaviour.Properties.of().sound(SoundType.STONE), true);
+
+    public static final BlockFamily POLISHED_DEEPSLATE_TILE_FAMILY =
+            new BlockFamily.Builder(ModBlocks.POLISHED_DEEPSLATE_TILE)
+                    .stairs(ModBlocks.POLISHED_DEEPSLATE_TILE_STAIRS)
+                    .slab(ModBlocks.POLISHED_DEEPSLATE_TILE_SLAB)
+                    .wall(ModBlocks.POLISHED_DEEPSLATE_TILE_WALL)
+                    .getFamily();
 }

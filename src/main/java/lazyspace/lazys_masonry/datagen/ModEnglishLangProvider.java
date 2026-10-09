@@ -1,0 +1,46 @@
+package lazyspace.lazys_masonry.datagen;
+
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
+import net.minecraft.core.HolderLookup;
+
+import java.util.concurrent.CompletableFuture;
+
+public class ModEnglishLangProvider extends FabricLanguageProvider {
+    public ModEnglishLangProvider(FabricDataOutput dataOutput, CompletableFuture<HolderLookup.Provider> registryLookup) {
+        super(dataOutput, "en_us", registryLookup);
+    }
+
+    @Override
+    public void generateTranslations(HolderLookup.Provider holderLookup, TranslationBuilder translationBuilder) {
+        translationBuilder.add("block.lazys_masonry.polished_andesite_tile", "Polished Andesite Tile");
+        translationBuilder.add("block.lazys_masonry.polished_andesite_tile_slab", "Polished Andesite Tile Slab");
+        translationBuilder.add("block.lazys_masonry.polished_andesite_tile_stairs", "Polished Andesite Tile Stairs");
+        translationBuilder.add("block.lazys_masonry.polished_andesite_tile_wall", "Polished Andesite Tile Wall");
+
+        translationBuilder.add("block.lazys_masonry.polished_diorite_tile", "Polished Diorite Tile");
+        translationBuilder.add("block.lazys_masonry.polished_diorite_tile_slab", "Polished Diorite Tile Slab");
+        translationBuilder.add("block.lazys_masonry.polished_diorite_tile_stairs", "Polished Diorite Tile Stairs");
+        translationBuilder.add("block.lazys_masonry.polished_diorite_tile_wall", "Polished Diorite Tile Wall");
+
+        translationBuilder.add("block.lazys_masonry.polished_granite_tile", "Polished Granite Tile");
+        translationBuilder.add("block.lazys_masonry.polished_granite_tile_slab", "Polished Granite Tile Slab");
+        translationBuilder.add("block.lazys_masonry.polished_granite_tile_stairs", "Polished Granite Tile Stairs");
+        translationBuilder.add("block.lazys_masonry.polished_granite_tile_wall", "Polished Granite Tile Wall");
+
+        translationBuilder.add("block.lazys_masonry.polished_blackstone_tile", "Polished Blackstone Tile");
+        translationBuilder.add("block.lazys_masonry.polished_blackstone_tile_slab", "Polished Blackstone Tile Slab");
+        translationBuilder.add("block.lazys_masonry.polished_blackstone_tile_stairs", "Polished Blackstone Tile Stairs");
+        translationBuilder.add("block.lazys_masonry.polished_blackstone_tile_wall", "Polished Blackstone Tile Wall");
+
+        translationBuilder.add("block.lazys_masonry.polished_tuff_tile", "Polished Tuff Tile");
+        translationBuilder.add("block.lazys_masonry.polished_tuff_tile_slab", "Polished Tuff Tile Slab");
+        translationBuilder.add("block.lazys_masonry.polished_tuff_tile_stairs", "Polished Tuff Tile Stairs");
+        translationBuilder.add("block.lazys_masonry.polished_tuff_tile_wall", "Polished Tuff Tile Wall");
+
+        translationBuilder.add("block.lazys_masonry.polished_deepslate_tile", "Polished Deepslate Tile");
+        translationBuilder.add("block.lazys_masonry.polished_deepslate_tile_slab", "Polished Deepslate Tile Slab");
+        translationBuilder.add("block.lazys_masonry.polished_deepslate_tile_stairs", "Polished Deepslate Tile Stairs");
+        translationBuilder.add("block.lazys_masonry.polished_deepslate_tile_wall", "Polished Deepslate Tile Wall");
+    }
+}

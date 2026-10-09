@@ -21,6 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.family(ModBlocks.POLISHED_GRANITE_TILE).generateFor(ModBlocks.POLISHED_GRANITE_TILE_FAMILY);
         blockStateModelGenerator.family(ModBlocks.POLISHED_BLACKSTONE_TILE).generateFor(ModBlocks.POLISHED_BLACKSTONE_TILE_FAMILY);
         blockStateModelGenerator.family(ModBlocks.POLISHED_TUFF_TILE).generateFor(ModBlocks.POLISHED_TUFF_TILE_FAMILY);
+        blockStateModelGenerator.family(ModBlocks.POLISHED_DEEPSLATE_TILE).generateFor(ModBlocks.POLISHED_DEEPSLATE_TILE_FAMILY);
     }
 
     @Override

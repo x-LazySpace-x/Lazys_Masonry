@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "lazys_masonry:block/polished_deepslate_tile",
+    "side": "lazys_masonry:block/polished_deepslate_tile",
+    "top": "lazys_masonry:block/polished_deepslate_tile"
+  }
+}

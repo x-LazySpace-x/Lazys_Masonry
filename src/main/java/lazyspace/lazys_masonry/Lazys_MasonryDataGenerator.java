@@ -1,6 +1,7 @@
 package lazyspace.lazys_masonry;
 
 import lazyspace.lazys_masonry.datagen.ModBlockTagProvider;
+import lazyspace.lazys_masonry.datagen.ModEnglishLangProvider;
 import lazyspace.lazys_masonry.datagen.ModItemTagProvider;
 import lazyspace.lazys_masonry.datagen.ModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -14,5 +15,6 @@ public class Lazys_MasonryDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModEnglishLangProvider::new);
 	}
 }

@@ -40,5 +40,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         valueLookupBuilder(BlockTags.SLABS).add(ModBlocks.POLISHED_TUFF_TILE_SLAB);
         valueLookupBuilder(BlockTags.STAIRS).add(ModBlocks.POLISHED_TUFF_TILE_STAIRS);
         valueLookupBuilder(BlockTags.WALLS).add(ModBlocks.POLISHED_TUFF_TILE_WALL);
+
+        valueLookupBuilder(BlockTags.SLABS).add(ModBlocks.POLISHED_DEEPSLATE_TILE_SLAB);
+        valueLookupBuilder(BlockTags.STAIRS).add(ModBlocks.POLISHED_DEEPSLATE_TILE_STAIRS);
+        valueLookupBuilder(BlockTags.WALLS).add(ModBlocks.POLISHED_DEEPSLATE_TILE_WALL);
     }
 }
