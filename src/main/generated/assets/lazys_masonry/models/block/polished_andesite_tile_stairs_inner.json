@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "lazys_masonry:block/polished_andesite_tile",
+    "side": "lazys_masonry:block/polished_andesite_tile",
+    "top": "lazys_masonry:block/polished_andesite_tile"
+  }
+}

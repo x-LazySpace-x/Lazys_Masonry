@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "lazys_masonry:block/polished_blackstone_tile"
+  }
+}

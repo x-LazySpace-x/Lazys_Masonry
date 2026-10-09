@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lazys_masonry:block/polished_diorite_tile_slab"
+    },
+    "type=double": {
+      "model": "lazys_masonry:block/polished_diorite_tile"
+    },
+    "type=top": {
+      "model": "lazys_masonry:block/polished_diorite_tile_slab_top"
+    }
+  }
+}
