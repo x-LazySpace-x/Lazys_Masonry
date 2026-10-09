@@ -21,6 +21,38 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider wrapperLookup) {
+        // mineable with pickaxe
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_ANDESITE_TILE);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_ANDESITE_TILE_SLAB);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_ANDESITE_TILE_STAIRS);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_ANDESITE_TILE_WALL);
+
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_DIORITE_TILE);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_DIORITE_TILE_SLAB);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_DIORITE_TILE_STAIRS);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_DIORITE_TILE_WALL);
+
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_GRANITE_TILE);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_GRANITE_TILE_SLAB);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_GRANITE_TILE_STAIRS);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_GRANITE_TILE_WALL);
+
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_BLACKSTONE_TILE);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_BLACKSTONE_TILE_SLAB);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_BLACKSTONE_TILE_STAIRS);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_BLACKSTONE_TILE_WALL);
+
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_TUFF_TILE);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_TUFF_TILE_SLAB);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_TUFF_TILE_STAIRS);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_TUFF_TILE_WALL);
+
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_DEEPSLATE_TILE);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_DEEPSLATE_TILE_SLAB);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_DEEPSLATE_TILE_STAIRS);
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.POLISHED_DEEPSLATE_TILE_WALL);
+
+        // slabs, stairs and walls
         valueLookupBuilder(BlockTags.SLABS).add(ModBlocks.POLISHED_ANDESITE_TILE_SLAB);
         valueLookupBuilder(BlockTags.STAIRS).add(ModBlocks.POLISHED_ANDESITE_TILE_STAIRS);
         valueLookupBuilder(BlockTags.WALLS).add(ModBlocks.POLISHED_ANDESITE_TILE_WALL);
