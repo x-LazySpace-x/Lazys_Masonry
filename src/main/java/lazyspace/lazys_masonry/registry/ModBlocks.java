@@ -43,7 +43,7 @@ public class ModBlocks {
     }
 
     public static final Block POLISHED_ANDESITE_TILE = register("polished_andesite_tile", Block::new, BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_ANDESITE), true);
-    public static final Block POLISHED_ANDESITE_TILE_SLAB = register("polished_andesite_tile", SlabBlock::new, BlockBehaviour.Properties.ofFullCopy(POLISHED_ANDESITE_TILE), true);
-    public static final Block POLISHED_ANDESITE_TILE_STAIRS = registerStair("polished_andesite_tile", POLISHED_ANDESITE_TILE);
-    // hi
+    //public static final Block POLISHED_ANDESITE_TILE_SLAB = register("polished_andesite_tile", SlabBlock::new, BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_ANDESITE_SLAB), true);
+    //public static final Block POLISHED_ANDESITE_TILE_STAIRS = registerStair("polished_andesite_tile", POLISHED_ANDESITE_TILE);
+
 }
