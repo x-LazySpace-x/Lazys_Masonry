@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#lazys_masonry:stone_convertable",
+  "result": {
+    "id": "minecraft:stone"
+  }
+}

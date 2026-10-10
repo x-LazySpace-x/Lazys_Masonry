@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:polished_tuff",
+  "result": {
+    "count": 1,
+    "id": "lazys_masonry:polished_tuff_tile_wall"
+  }
+}

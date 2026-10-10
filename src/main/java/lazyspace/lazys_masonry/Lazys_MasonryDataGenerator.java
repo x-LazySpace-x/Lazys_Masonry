@@ -14,5 +14,6 @@ public class Lazys_MasonryDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModEnglishLangProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 }
